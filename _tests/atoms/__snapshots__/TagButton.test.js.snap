@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <TagButton> to render 1`] = `
+<TagButton
+  onChange={[Function]}
+  value="This is text"
+>
+  <TagButtonStyles__TagWrapper
+    onChange={[Function]}
+    onClick={[Function]}
+    value="This is text"
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "TagButtonStyles__TagWrapper-sc-1hxomxr-0",
+            "isStatic": false,
+            "lastClassName": "fitCAM",
+            "rules": Array [
+              "
+  padding: 8px 16px;
+  background-color: ",
+              "#fff",
+              ";
+  box-sizing: border-box;
+  width: auto;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  border: solid 1px ",
+              "#e0e7ec",
+              ";
+  cursor: ",
+              [Function],
+              ";
+  transition: all 350ms ease;
+  flex-shrink: 0;
+
+  ",
+              [Function],
+              ";
+
+  ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "TagButtonStyles__TagWrapper",
+          "render": [Function],
+          "styledComponentId": "TagButtonStyles__TagWrapper-sc-1hxomxr-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onChange={[Function]}
+      onClick={[Function]}
+      value="This is text"
+    >
+      <div
+        className="TagButtonStyles__TagWrapper-sc-1hxomxr-0 fitCAM"
+        onChange={[Function]}
+        onClick={[Function]}
+        value="This is text"
+      >
+        <TagButtonStyles__Text>
+          <StyledComponent
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "TagButtonStyles__Text-sc-1hxomxr-1",
+                  "isStatic": true,
+                  "lastClassName": "hkcelG",
+                  "rules": Array [
+                    "
+  font-family: 'Rubik', 'sans-serif';
+  font-size: 12px;
+  font-weight: 500;
+  color: ",
+                    "#acbec7",
+                    ";
+  user-select: none;
+",
+                  ],
+                },
+                "displayName": "TagButtonStyles__Text",
+                "render": [Function],
+                "styledComponentId": "TagButtonStyles__Text-sc-1hxomxr-1",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="TagButtonStyles__Text-sc-1hxomxr-1 hkcelG"
+            />
+          </StyledComponent>
+        </TagButtonStyles__Text>
+      </div>
+    </StyledComponent>
+  </TagButtonStyles__TagWrapper>
+</TagButton>
+`;
+
+exports[`Expect <TagButton> to render properly with empty 1`] = `
+<TagButton
+  onChange={[Function]}
+  value=""
+>
+  <TagButtonStyles__TagWrapper
+    onChange={[Function]}
+    onClick={[Function]}
+    value=""
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "TagButtonStyles__TagWrapper-sc-1hxomxr-0",
+            "isStatic": false,
+            "lastClassName": "fitCAM",
+            "rules": Array [
+              "
+  padding: 8px 16px;
+  background-color: ",
+              "#fff",
+              ";
+  box-sizing: border-box;
+  width: auto;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  border: solid 1px ",
+              "#e0e7ec",
+              ";
+  cursor: ",
+              [Function],
+              ";
+  transition: all 350ms ease;
+  flex-shrink: 0;
+
+  ",
+              [Function],
+              ";
+
+  ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "TagButtonStyles__TagWrapper",
+          "render": [Function],
+          "styledComponentId": "TagButtonStyles__TagWrapper-sc-1hxomxr-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onChange={[Function]}
+      onClick={[Function]}
+      value=""
+    >
+      <div
+        className="TagButtonStyles__TagWrapper-sc-1hxomxr-0 fitCAM"
+        onChange={[Function]}
+        onClick={[Function]}
+        value=""
+      >
+        <TagButtonStyles__Text>
+          <StyledComponent
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "TagButtonStyles__Text-sc-1hxomxr-1",
+                  "isStatic": true,
+                  "lastClassName": "hkcelG",
+                  "rules": Array [
+                    "
+  font-family: 'Rubik', 'sans-serif';
+  font-size: 12px;
+  font-weight: 500;
+  color: ",
+                    "#acbec7",
+                    ";
+  user-select: none;
+",
+                  ],
+                },
+                "displayName": "TagButtonStyles__Text",
+                "render": [Function],
+                "styledComponentId": "TagButtonStyles__Text-sc-1hxomxr-1",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="TagButtonStyles__Text-sc-1hxomxr-1 hkcelG"
+            />
+          </StyledComponent>
+        </TagButtonStyles__Text>
+      </div>
+    </StyledComponent>
+  </TagButtonStyles__TagWrapper>
+</TagButton>
+`;

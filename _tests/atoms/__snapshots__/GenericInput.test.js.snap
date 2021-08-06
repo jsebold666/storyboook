@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <GenericInput> to render 1`] = `
+<GenericInput
+  className=""
+  disabled={false}
+  name="genericInput"
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value="This is text"
+>
+  <InputElement
+    className=""
+    disabled={false}
+    inputRef={[Function]}
+    name="genericInput"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder=""
+    type="text"
+    value="This is text"
+  >
+    <input
+      className=""
+      disabled={false}
+      name="genericInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholder=""
+      type="text"
+      value="This is text"
+    />
+  </InputElement>
+</GenericInput>
+`;
+
+exports[`Expect <GenericInput> to render properly with empty 1`] = `
+<GenericInput
+  className=""
+  disabled={false}
+  name="genericInput"
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value=""
+>
+  <InputElement
+    className=""
+    disabled={false}
+    inputRef={[Function]}
+    name="genericInput"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    placeholder=""
+    type="text"
+    value=""
+  >
+    <input
+      className=""
+      disabled={false}
+      name="genericInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholder=""
+      type="text"
+      value=""
+    />
+  </InputElement>
+</GenericInput>
+`;

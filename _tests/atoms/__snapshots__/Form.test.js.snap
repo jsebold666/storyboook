@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <Form> to render 1`] = `
+<Form
+  onChange={[Function]}
+  value="This is text"
+>
+  <form
+    onChange={[Function]}
+    onSubmit={[Function]}
+    value="This is text"
+  />
+</Form>
+`;
+
+exports[`Expect <Form> to render properly with empty 1`] = `
+<Form
+  onChange={[Function]}
+  value=""
+>
+  <form
+    onChange={[Function]}
+    onSubmit={[Function]}
+    value=""
+  />
+</Form>
+`;

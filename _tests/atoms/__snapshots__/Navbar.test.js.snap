@@ -1,0 +1,647 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <Navbar> to render 1`] = `
+<Navbar
+  hideCloseIcon={false}
+  isTransparent={false}
+  onChange={[Function]}
+  showBackButton={false}
+  value="This is text"
+>
+  <Navbar__Nav>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Navbar__Nav-sc-1mrlnwx-0",
+            "isStatic": true,
+            "lastClassName": "jsMErf",
+            "rules": Array [
+              "
+  .row.row-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+
+    @media (min-width: ",
+              "1024px",
+              ") {
+      max-width: 768px;
+      margin: 24px auto;
+    }
+  }
+
+  .flex1 {
+    flex: 1 1;
+  }
+
+  .justify-between {
+    justify-content: space-between !important;
+  }
+
+  .navbar__container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    background-image: linear-gradient(
+      to right,
+      ",
+              "#ab64f5",
+              ",
+      ",
+              "#8d85ee",
+              "
+    );
+    color: white;
+    padding: 16px 0;
+    align-items: center;
+    display: flex;
+
+    & .container {
+      margin: 0 auto;
+      padding: 0 16px;
+
+      .navbar__icon-button {
+        color: ",
+              "#fff",
+              ";
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      @media (min-width: ",
+              "1024px",
+              ") {
+        padding: 0;
+      }
+    }
+
+    &.transparent {
+      background-image: none;
+    }
+
+    & .navbar__icon {
+      &-alert {
+        margin-left: 32px;
+      }
+
+      &-user {
+        margin-left: 16px;
+      }
+
+      &-return {
+        display: flex;
+        justify-content: center;
+        margin-right: 24px;
+      }
+
+      &-circle {
+        width: 32px;
+        height: 32px;
+        opacity: 0.5;
+        border: solid 4px #ffffff;
+        margin-right: 16px;
+        border-radius: 50%;
+      }
+    }
+
+    @media (min-width: ",
+              "1024px",
+              ") {
+      height: 88px;
+      padding: 10px 0;
+    }
+  }
+",
+            ],
+          },
+          "displayName": "Navbar__Nav",
+          "render": [Function],
+          "styledComponentId": "Navbar__Nav-sc-1mrlnwx-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Navbar__Nav-sc-1mrlnwx-0 jsMErf"
+      >
+        <header
+          className="navbar__container "
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="grid gutters"
+            >
+              <div
+                className="row row-center flex1 justify-between"
+              >
+                <div
+                  style={
+                    Object {
+                      "width": "48px",
+                    }
+                  }
+                />
+                <span
+                  className="navbar__text"
+                />
+                <WithStyles(IconButton)
+                  className="navbar__icon-button"
+                  onClick={[Function]}
+                >
+                  <IconButton
+                    className="navbar__icon-button"
+                    classes={
+                      Object {
+                        "colorInherit": "MuiIconButton-colorInherit-2",
+                        "colorPrimary": "MuiIconButton-colorPrimary-3",
+                        "colorSecondary": "MuiIconButton-colorSecondary-4",
+                        "disabled": "MuiIconButton-disabled-5",
+                        "label": "MuiIconButton-label-6",
+                        "root": "MuiIconButton-root-1",
+                      }
+                    }
+                    color="default"
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ButtonBase)
+                      centerRipple={true}
+                      className="MuiIconButton-root-1 navbar__icon-button"
+                      disabled={false}
+                      focusRipple={true}
+                      onClick={[Function]}
+                    >
+                      <ButtonBase
+                        centerRipple={true}
+                        className="MuiIconButton-root-1 navbar__icon-button"
+                        classes={
+                          Object {
+                            "disabled": "MuiButtonBase-disabled-8",
+                            "focusVisible": "MuiButtonBase-focusVisible-9",
+                            "root": "MuiButtonBase-root-7",
+                          }
+                        }
+                        component="button"
+                        disableRipple={false}
+                        disableTouchRipple={false}
+                        disabled={false}
+                        focusRipple={true}
+                        onClick={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <button
+                          className="MuiButtonBase-root-7 MuiIconButton-root-1 navbar__icon-button"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex="0"
+                          type="button"
+                        >
+                          <span
+                            className="MuiIconButton-label-6"
+                          >
+                            <pure(CloseIcon)>
+                              <CloseIcon>
+                                <WithStyles(SvgIcon)>
+                                  <SvgIcon
+                                    classes={
+                                      Object {
+                                        "colorAction": "MuiSvgIcon-colorAction-13",
+                                        "colorDisabled": "MuiSvgIcon-colorDisabled-15",
+                                        "colorError": "MuiSvgIcon-colorError-14",
+                                        "colorPrimary": "MuiSvgIcon-colorPrimary-11",
+                                        "colorSecondary": "MuiSvgIcon-colorSecondary-12",
+                                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-16",
+                                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-18",
+                                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-17",
+                                        "root": "MuiSvgIcon-root-10",
+                                      }
+                                    }
+                                    color="inherit"
+                                    component="svg"
+                                    fontSize="default"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      className="MuiSvgIcon-root-10"
+                                      focusable="false"
+                                      role="presentation"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                      />
+                                      <path
+                                        d="M0 0h24v24H0z"
+                                        fill="none"
+                                      />
+                                    </svg>
+                                  </SvgIcon>
+                                </WithStyles(SvgIcon)>
+                              </CloseIcon>
+                            </pure(CloseIcon)>
+                          </span>
+                          <NoSsr
+                            defer={false}
+                            fallback={null}
+                          >
+                            <WithStyles(TouchRipple)
+                              center={true}
+                              innerRef={[Function]}
+                            >
+                              <TouchRipple
+                                center={true}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child-23",
+                                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                                    "ripple": "MuiTouchRipple-ripple-20",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
+                                    "root": "MuiTouchRipple-root-19",
+                                  }
+                                }
+                              >
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  className="MuiTouchRipple-root-19"
+                                  component="span"
+                                  enter={true}
+                                  exit={true}
+                                >
+                                  <span
+                                    className="MuiTouchRipple-root-19"
+                                  />
+                                </TransitionGroup>
+                              </TouchRipple>
+                            </WithStyles(TouchRipple)>
+                          </NoSsr>
+                        </button>
+                      </ButtonBase>
+                    </WithStyles(ButtonBase)>
+                  </IconButton>
+                </WithStyles(IconButton)>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </StyledComponent>
+  </Navbar__Nav>
+</Navbar>
+`;
+
+exports[`Expect <Navbar> to render properly with empty 1`] = `
+<Navbar
+  hideCloseIcon={false}
+  isTransparent={false}
+  onChange={[Function]}
+  showBackButton={false}
+  value=""
+>
+  <Navbar__Nav>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Navbar__Nav-sc-1mrlnwx-0",
+            "isStatic": true,
+            "lastClassName": "jsMErf",
+            "rules": Array [
+              "
+  .row.row-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+
+    @media (min-width: ",
+              "1024px",
+              ") {
+      max-width: 768px;
+      margin: 24px auto;
+    }
+  }
+
+  .flex1 {
+    flex: 1 1;
+  }
+
+  .justify-between {
+    justify-content: space-between !important;
+  }
+
+  .navbar__container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    background-image: linear-gradient(
+      to right,
+      ",
+              "#ab64f5",
+              ",
+      ",
+              "#8d85ee",
+              "
+    );
+    color: white;
+    padding: 16px 0;
+    align-items: center;
+    display: flex;
+
+    & .container {
+      margin: 0 auto;
+      padding: 0 16px;
+
+      .navbar__icon-button {
+        color: ",
+              "#fff",
+              ";
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      @media (min-width: ",
+              "1024px",
+              ") {
+        padding: 0;
+      }
+    }
+
+    &.transparent {
+      background-image: none;
+    }
+
+    & .navbar__icon {
+      &-alert {
+        margin-left: 32px;
+      }
+
+      &-user {
+        margin-left: 16px;
+      }
+
+      &-return {
+        display: flex;
+        justify-content: center;
+        margin-right: 24px;
+      }
+
+      &-circle {
+        width: 32px;
+        height: 32px;
+        opacity: 0.5;
+        border: solid 4px #ffffff;
+        margin-right: 16px;
+        border-radius: 50%;
+      }
+    }
+
+    @media (min-width: ",
+              "1024px",
+              ") {
+      height: 88px;
+      padding: 10px 0;
+    }
+  }
+",
+            ],
+          },
+          "displayName": "Navbar__Nav",
+          "render": [Function],
+          "styledComponentId": "Navbar__Nav-sc-1mrlnwx-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Navbar__Nav-sc-1mrlnwx-0 jsMErf"
+      >
+        <header
+          className="navbar__container "
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="grid gutters"
+            >
+              <div
+                className="row row-center flex1 justify-between"
+              >
+                <div
+                  style={
+                    Object {
+                      "width": "48px",
+                    }
+                  }
+                />
+                <span
+                  className="navbar__text"
+                />
+                <WithStyles(IconButton)
+                  className="navbar__icon-button"
+                  onClick={[Function]}
+                >
+                  <IconButton
+                    className="navbar__icon-button"
+                    classes={
+                      Object {
+                        "colorInherit": "MuiIconButton-colorInherit-2",
+                        "colorPrimary": "MuiIconButton-colorPrimary-3",
+                        "colorSecondary": "MuiIconButton-colorSecondary-4",
+                        "disabled": "MuiIconButton-disabled-5",
+                        "label": "MuiIconButton-label-6",
+                        "root": "MuiIconButton-root-1",
+                      }
+                    }
+                    color="default"
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ButtonBase)
+                      centerRipple={true}
+                      className="MuiIconButton-root-1 navbar__icon-button"
+                      disabled={false}
+                      focusRipple={true}
+                      onClick={[Function]}
+                    >
+                      <ButtonBase
+                        centerRipple={true}
+                        className="MuiIconButton-root-1 navbar__icon-button"
+                        classes={
+                          Object {
+                            "disabled": "MuiButtonBase-disabled-8",
+                            "focusVisible": "MuiButtonBase-focusVisible-9",
+                            "root": "MuiButtonBase-root-7",
+                          }
+                        }
+                        component="button"
+                        disableRipple={false}
+                        disableTouchRipple={false}
+                        disabled={false}
+                        focusRipple={true}
+                        onClick={[Function]}
+                        tabIndex="0"
+                        type="button"
+                      >
+                        <button
+                          className="MuiButtonBase-root-7 MuiIconButton-root-1 navbar__icon-button"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex="0"
+                          type="button"
+                        >
+                          <span
+                            className="MuiIconButton-label-6"
+                          >
+                            <pure(CloseIcon)>
+                              <CloseIcon>
+                                <WithStyles(SvgIcon)>
+                                  <SvgIcon
+                                    classes={
+                                      Object {
+                                        "colorAction": "MuiSvgIcon-colorAction-13",
+                                        "colorDisabled": "MuiSvgIcon-colorDisabled-15",
+                                        "colorError": "MuiSvgIcon-colorError-14",
+                                        "colorPrimary": "MuiSvgIcon-colorPrimary-11",
+                                        "colorSecondary": "MuiSvgIcon-colorSecondary-12",
+                                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-16",
+                                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-18",
+                                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-17",
+                                        "root": "MuiSvgIcon-root-10",
+                                      }
+                                    }
+                                    color="inherit"
+                                    component="svg"
+                                    fontSize="default"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      className="MuiSvgIcon-root-10"
+                                      focusable="false"
+                                      role="presentation"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                      />
+                                      <path
+                                        d="M0 0h24v24H0z"
+                                        fill="none"
+                                      />
+                                    </svg>
+                                  </SvgIcon>
+                                </WithStyles(SvgIcon)>
+                              </CloseIcon>
+                            </pure(CloseIcon)>
+                          </span>
+                          <NoSsr
+                            defer={false}
+                            fallback={null}
+                          >
+                            <WithStyles(TouchRipple)
+                              center={true}
+                              innerRef={[Function]}
+                            >
+                              <TouchRipple
+                                center={true}
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child-23",
+                                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                                    "ripple": "MuiTouchRipple-ripple-20",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
+                                    "root": "MuiTouchRipple-root-19",
+                                  }
+                                }
+                              >
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  className="MuiTouchRipple-root-19"
+                                  component="span"
+                                  enter={true}
+                                  exit={true}
+                                >
+                                  <span
+                                    className="MuiTouchRipple-root-19"
+                                  />
+                                </TransitionGroup>
+                              </TouchRipple>
+                            </WithStyles(TouchRipple)>
+                          </NoSsr>
+                        </button>
+                      </ButtonBase>
+                    </WithStyles(ButtonBase)>
+                  </IconButton>
+                </WithStyles(IconButton)>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </StyledComponent>
+  </Navbar__Nav>
+</Navbar>
+`;

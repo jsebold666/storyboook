@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <BigInput> to render 1`] = `
+<BigInput
+  onChange={[Function]}
+  value="This is text"
+>
+  <BigInput__Input
+    onChange={[Function]}
+    value="This is text"
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "BigInput__Input-xo6509-0",
+            "isStatic": false,
+            "lastClassName": "iSeKpq",
+            "rules": Array [
+              "
+  font-family: Rubik, sans-serif;
+  border: none;
+  outline: none;
+  height: 90px;
+  width: 99%;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.69;
+  letter-spacing: normal;
+  text-align: center;
+  color: ",
+              "#acbec7",
+              ";
+  background-color: ",
+              [Function],
+              ";
+
+  input:focus {
+    color: ",
+              "#4a5365",
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "BigInput__Input",
+          "render": [Function],
+          "styledComponentId": "BigInput__Input-xo6509-0",
+          "target": "input",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onChange={[Function]}
+      value="This is text"
+    >
+      <input
+        className="BigInput__Input-xo6509-0 iSeKpq"
+        onChange={[Function]}
+        value="This is text"
+      />
+    </StyledComponent>
+  </BigInput__Input>
+</BigInput>
+`;
+
+exports[`Expect <BigInput> to render properly with empty 1`] = `
+<BigInput
+  onChange={[Function]}
+  value=""
+>
+  <BigInput__Input
+    onChange={[Function]}
+    value=""
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "BigInput__Input-xo6509-0",
+            "isStatic": false,
+            "lastClassName": "iSeKpq",
+            "rules": Array [
+              "
+  font-family: Rubik, sans-serif;
+  border: none;
+  outline: none;
+  height: 90px;
+  width: 99%;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.69;
+  letter-spacing: normal;
+  text-align: center;
+  color: ",
+              "#acbec7",
+              ";
+  background-color: ",
+              [Function],
+              ";
+
+  input:focus {
+    color: ",
+              "#4a5365",
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "BigInput__Input",
+          "render": [Function],
+          "styledComponentId": "BigInput__Input-xo6509-0",
+          "target": "input",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onChange={[Function]}
+      value=""
+    >
+      <input
+        className="BigInput__Input-xo6509-0 iSeKpq"
+        onChange={[Function]}
+        value=""
+      />
+    </StyledComponent>
+  </BigInput__Input>
+</BigInput>
+`;

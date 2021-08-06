@@ -1,0 +1,1 @@
+The `<PasswordInput>` component.

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="132px" viewBox="0 0 168 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>AC301934-1EE8-4E5D-8B7C-DAB8593DE63E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="98.5889668%" y2="1.41103316%" id="linearGradient-1">
+            <stop stop-color="#22C6BD" offset="0%"></stop>
+            <stop stop-color="#1BD7D1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#AB64F5" offset="0%"></stop>
+            <stop stop-color="#8D85EE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="MVP-Mob" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-mobile/apolice-06" transform="translate(-96.000000, -378.000000)">
+            <g id="Group-4" transform="translate(96.000000, 378.000000)">
+                <circle id="Oval-3" fill="#F1F5F7" fill-rule="nonzero" cx="85" cy="66" r="66"></circle>
+                <g id="Group" opacity="0.600000024" transform="translate(0.000000, 14.000000)">
+                    <rect id="text-input-copy" fill="url(#linearGradient-1)" x="0" y="0" width="111" height="56" rx="4"></rect>
+                    <g id="Group-12-Copy" transform="translate(6.166667, 11.666667)" fill="#FFFFFF">
+                        <g id="Group-14" opacity="0.5">
+                            <ellipse id="circle" opacity="0.800000012" transform="translate(2.834677, 2.851852) scale(-1, 1) translate(-2.834677, -2.851852) " cx="2.83467742" cy="2.85185185" rx="2.83467742" ry="2.85185185"></ellipse>
+                        </g>
+                        <rect id="Rectangle-27" fill-rule="nonzero" opacity="0.300000012" x="11.3387097" y="11.4074074" width="56.6935484" height="2.85185185" rx="1.42592593"></rect>
+                        <rect id="Rectangle-27-Copy-2" fill-rule="nonzero" opacity="0.400000006" x="11.3387097" y="22.8148148" width="17.0080645" height="2.85185185" rx="1.42592593"></rect>
+                        <rect id="Rectangle-27-Copy-3" fill-rule="nonzero" opacity="0.300000012" x="11.3387097" y="31.3703704" width="31.1814516" height="2.85185185" rx="1.42592593"></rect>
+                    </g>
+                    <rect id="Path" fill="#FFFFFF" opacity="0.400000006" x="16.9583333" y="11.6666667" width="76.3125" height="6.22222222" rx="3.11111111"></rect>
+                </g>
+                <g id="Group-Copy" opacity="0.800000012" transform="translate(81.000000, 51.000000)">
+                    <rect id="text-input-copy" fill="url(#linearGradient-2)" x="0" y="0" width="87" height="63" rx="4"></rect>
+                    <g id="Group-12-Copy" transform="translate(4.660714, 8.662500)" fill="#FFFFFF">
+                        <g id="Group-14" opacity="0.5">
+                            <ellipse id="circle" opacity="0.800000012" transform="translate(2.180012, 2.231250) scale(-1, 1) translate(-2.180012, -2.231250) " cx="2.18001152" cy="2.23125" rx="2.18001152" ry="2.23125"></ellipse>
+                        </g>
+                        <rect id="Rectangle-27-Copy-2" fill-rule="nonzero" opacity="0.400000006" x="8.72004608" y="17.85" width="13.0800691" height="2.23125" rx="1.115625"></rect>
+                        <rect id="Rectangle-27-Copy-3" fill-rule="nonzero" opacity="0.300000012" x="8.72004608" y="24.54375" width="23.9801267" height="2.23125" rx="1.115625"></rect>
+                        <rect id="Rectangle-27-Copy-4" fill-rule="nonzero" opacity="0.300000012" x="43.6002304" y="24.54375" width="23.9801267" height="2.23125" rx="1.115625"></rect>
+                        <rect id="Rectangle-27-Copy-8" fill-rule="nonzero" opacity="0.400000006" x="8.72004608" y="35.175" width="13.0800691" height="2.23125" rx="1.115625"></rect>
+                        <rect id="Rectangle-27-Copy-7" fill-rule="nonzero" opacity="0.300000012" x="8.72004608" y="41.86875" width="23.9801267" height="2.23125" rx="1.115625"></rect>
+                        <rect id="Rectangle-27-Copy-6" fill-rule="nonzero" opacity="0.300000012" x="43.6002304" y="41.86875" width="23.9801267" height="2.23125" rx="1.115625"></rect>
+                    </g>
+                    <rect id="Rectangle-27-Copy-5" fill="#FFFFFF" opacity="0.400000006" x="48.9375" y="26.775" width="13.2053571" height="2.3625" rx="1.18125"></rect>
+                    <rect id="Rectangle-27-Copy-9" fill="#FFFFFF" opacity="0.400000006" x="48.9375" y="44.1" width="13.2053571" height="2.3625" rx="1.18125"></rect>
+                    <rect id="Path" fill="#FFFFFF" opacity="0.400000006" x="13.2053571" y="8.6625" width="59.0357143" height="4.725" rx="2.3625"></rect>
+                </g>
+                <g id="Group" opacity="0.600000024" transform="translate(16.000000, 95.000000)">
+                    <path d="M51.4766701,24.6153846 L48.0618896,28.4272316 C48.0155729,28.478934 47.966596,28.52819 47.9151576,28.5747997 C47.0966358,29.3164841 45.8318387,29.2541951 45.0901542,28.4356733 L41.6284888,24.6153846 L4,24.6153846 C1.790861,24.6153846 2.705415e-16,22.8245236 0,20.6153846 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L55,0 C57.209139,-4.05812251e-16 59,1.790861 59,4 L59,20.6153846 C59,22.8245236 57.209139,24.6153846 55,24.6153846 L51.4766701,24.6153846 Z" id="Combined-Shape-Copy" fill="#9999FF" transform="translate(29.500000, 14.546375) scale(-1, 1) translate(-29.500000, -14.546375) "></path>
+                    <rect id="Path-Copy" fill="#FFFFFF" opacity="0.400000006" x="8.16923077" y="10" width="39.0307692" height="4.70454545" rx="2.35227273"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

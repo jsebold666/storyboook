@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <BusinessSummary> to render 1`] = `
+<BusinessSummary
+  anualChange={-2}
+  labels={
+    Array [
+      "PRÊMIO R$",
+      "Total Ano",
+      "Ano passado",
+      "Mês passado",
+    ]
+  }
+  monthlyChange={3}
+  onChange={[Function]}
+  totalValue={1}
+>
+  <BusinessSummary__Wrapper>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "BusinessSummary__Wrapper-sc-1ce3iu1-0",
+            "isStatic": true,
+            "lastClassName": "iTggax",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: left;
+
+  div {
+    align-self: center;
+  }
+
+  .subtitle {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: ",
+              "#859099",
+              ";
+  }
+
+  .upper-title {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: ",
+              "#859099",
+              ";
+  }
+
+  .number {
+    font-size: ",
+              "16",
+              "px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: ",
+              "#4a5365",
+              ";
+  }
+
+  .up-or-down-icon {
+    height: ",
+              "16",
+              "px;
+    padding-right: 12px;
+  }
+",
+            ],
+          },
+          "displayName": "BusinessSummary__Wrapper",
+          "render": [Function],
+          "styledComponentId": "BusinessSummary__Wrapper-sc-1ce3iu1-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="BusinessSummary__Wrapper-sc-1ce3iu1-0 iTggax"
+      >
+        <SummaryItem
+          isCurrency={true}
+          subtitle="Total Ano"
+          uppperTitle="PRÊMIO R$"
+          value={1}
+        >
+          <div>
+            <span
+              className="upper-title"
+            >
+              PRÊMIO R$
+            </span>
+            <br />
+            <span
+              className="number"
+            >
+              <span>
+                1
+              </span>
+            </span>
+            <br />
+            <span
+              className="subtitle"
+            >
+              Total Ano
+            </span>
+          </div>
+        </SummaryItem>
+        <SummaryItem
+          subtitle="Ano passado"
+          uppperTitle=""
+          value={-2}
+        >
+          <div>
+            <span
+              className="upper-title"
+            />
+            <br />
+            <span
+              className="number"
+            >
+              <span
+                className="up-or-down-icon"
+              >
+                <DownIcon
+                  height="17"
+                  viewBox="0 0 16 17"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <svg
+                    height="17"
+                    viewBox="0 0 16 17"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.5 8.5l-5.793 5.793a1 1 0 0 1-1.414 0L1.5 8.5m6.5-7v13"
+                      fill="none"
+                      stroke="#F66"
+                      strokeLinecap="round"
+                      strokeWidth="3"
+                    />
+                  </svg>
+                </DownIcon>
+              </span>
+              <span>
+                -2,00 %
+              </span>
+            </span>
+            <br />
+            <span
+              className="subtitle"
+            >
+              Ano passado
+            </span>
+          </div>
+        </SummaryItem>
+        <SummaryItem
+          subtitle="Mês passado"
+          uppperTitle=""
+          value={3}
+        >
+          <div>
+            <span
+              className="upper-title"
+            />
+            <br />
+            <span
+              className="number"
+            >
+              <span
+                className="up-or-down-icon"
+              >
+                <UpIcon
+                  height="17"
+                  viewBox="0 0 16 17"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <svg
+                    height="17"
+                    viewBox="0 0 16 17"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 8.5l5.793-5.793a1 1 0 0 1 1.414 0L14.5 8.5m-6.5 7v-13"
+                      fill="none"
+                      stroke="#3C9"
+                      strokeLinecap="round"
+                      strokeWidth="3"
+                    />
+                  </svg>
+                </UpIcon>
+              </span>
+              <span>
+                3,00 %
+              </span>
+            </span>
+            <br />
+            <span
+              className="subtitle"
+            >
+              Mês passado
+            </span>
+          </div>
+        </SummaryItem>
+      </div>
+    </StyledComponent>
+  </BusinessSummary__Wrapper>
+</BusinessSummary>
+`;

@@ -1,0 +1,1 @@
+The `<Month>` component.

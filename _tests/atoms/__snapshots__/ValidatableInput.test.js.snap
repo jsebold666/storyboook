@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <ValidatableInput> to render 1`] = `
+<ValidatableInput
+  onChange={[Function]}
+  value="This is text"
+>
+  <ValidatableInput__Input
+    onChange={[Function]}
+    value="This is text"
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "ValidatableInput__Input-xydh4l-0",
+            "isStatic": false,
+            "lastClassName": "dDkmrl",
+            "rules": Array [
+              "
+  color: ",
+              "#acbec7",
+              ";
+  background-color: ",
+              [Function],
+              ";
+
+  input:focus {
+    color: ",
+              "#4a5365",
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "ValidatableInput__Input",
+          "render": [Function],
+          "styledComponentId": "ValidatableInput__Input-xydh4l-0",
+          "target": "input",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onChange={[Function]}
+      value="This is text"
+    >
+      <input
+        className="ValidatableInput__Input-xydh4l-0 dDkmrl"
+        onChange={[Function]}
+        value="This is text"
+      />
+    </StyledComponent>
+  </ValidatableInput__Input>
+</ValidatableInput>
+`;
+
+exports[`Expect <ValidatableInput> to render properly with empty 1`] = `
+<ValidatableInput
+  onChange={[Function]}
+  value=""
+>
+  <ValidatableInput__Input
+    onChange={[Function]}
+    value=""
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "ValidatableInput__Input-xydh4l-0",
+            "isStatic": false,
+            "lastClassName": "dDkmrl",
+            "rules": Array [
+              "
+  color: ",
+              "#acbec7",
+              ";
+  background-color: ",
+              [Function],
+              ";
+
+  input:focus {
+    color: ",
+              "#4a5365",
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "ValidatableInput__Input",
+          "render": [Function],
+          "styledComponentId": "ValidatableInput__Input-xydh4l-0",
+          "target": "input",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onChange={[Function]}
+      value=""
+    >
+      <input
+        className="ValidatableInput__Input-xydh4l-0 dDkmrl"
+        onChange={[Function]}
+        value=""
+      />
+    </StyledComponent>
+  </ValidatableInput__Input>
+</ValidatableInput>
+`;

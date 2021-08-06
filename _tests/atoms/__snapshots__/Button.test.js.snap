@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <Button> to render 1`] = `
+<Button
+  className="foo-class"
+  context="danger"
+  disabled={false}
+  group={false}
+  isLoading={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  showIcon={true}
+  size="sm"
+  style={
+    Object {
+      "width": "1000px",
+    }
+  }
+  text="This is text"
+  type="button"
+>
+  <Button__Btn
+    className="btn foo-class  sm"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <StyledComponent
+      className="btn foo-class  sm"
+      disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Button__Btn-nzgghs-0",
+            "isStatic": true,
+            "lastClassName": "hEKkqr",
+            "rules": Array [
+              "
+  &:not(.btn-loading),
+  &:not(.btn-loading) * {
+    cursor: pointer;
+  }
+
+  &.btn {
+    min-width: 200px;
+    width: 100%;
+
+    border: 0;
+
+    outline: none;
+    background-color: ",
+              "#33cccc",
+              ";
+    color: ",
+              "#fff",
+              ";
+
+    &.small {
+      height: 48px;
+      padding: 12px 24px 14px 24px;
+      border-radius: 4px;
+    }
+
+    &.medium {
+      height: 80px;
+      padding: 24px 16px 24px 24px;
+    }
+
+    &.large {
+      height: 100px;
+      padding: 24px 16px 24px 24px;
+    }
+
+    &:hover:not(.btn-default):not(.btn-loading):not([disabled]) {
+      background-color: #43e4e4;
+    }
+    &:active:not(.btn-default):not(.btn-loading):not([disabled]) {
+      background-color: #2fbcbc;
+    }
+  }
+
+  &.btn-default {
+    color: ",
+              "#9966ff",
+              ";
+    background-color: ",
+              "#fff",
+              ";
+  }
+
+  &:disabled {
+    background-color: ",
+              "#cfdae1",
+              ";
+    &,
+    & * {
+      cursor: not-allowed;
+    }
+  }
+
+  & .btn-inner__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & label {
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      margin-right: 32px;
+      flex: 1;
+      text-align: left;
+    }
+  }
+
+  .btn-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+",
+            ],
+          },
+          "displayName": "Button__Btn",
+          "render": [Function],
+          "styledComponentId": "Button__Btn-nzgghs-0",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      type="button"
+    >
+      <button
+        className="btn foo-class  sm Button__Btn-nzgghs-0 hEKkqr"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className="btn-inner__container"
+        >
+          <label>
+            My Cool Button
+          </label>
+          <pure(ArrowForwardIcon)>
+            <ArrowForwardIcon>
+              <WithStyles(SvgIcon)>
+                <SvgIcon
+                  classes={
+                    Object {
+                      "colorAction": "MuiSvgIcon-colorAction-4",
+                      "colorDisabled": "MuiSvgIcon-colorDisabled-6",
+                      "colorError": "MuiSvgIcon-colorError-5",
+                      "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+                      "colorSecondary": "MuiSvgIcon-colorSecondary-3",
+                      "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-7",
+                      "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-9",
+                      "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-8",
+                      "root": "MuiSvgIcon-root-1",
+                    }
+                  }
+                  color="inherit"
+                  component="svg"
+                  fontSize="default"
+                  viewBox="0 0 24 24"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-1"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    />
+                  </svg>
+                </SvgIcon>
+              </WithStyles(SvgIcon)>
+            </ArrowForwardIcon>
+          </pure(ArrowForwardIcon)>
+        </div>
+      </button>
+    </StyledComponent>
+  </Button__Btn>
+</Button>
+`;
+
+exports[`Expect <Button> to renders as a group button 1`] = `
+<Button
+  className="foo-class"
+  context="danger"
+  disabled={false}
+  group={true}
+  isLoading={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  showIcon={true}
+  size="sm"
+  style={
+    Object {
+      "width": "1000px",
+    }
+  }
+  text="This is text"
+  type="button"
+>
+  <Button__Btn
+    className="btn foo-class  sm"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <StyledComponent
+      className="btn foo-class  sm"
+      disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Button__Btn-nzgghs-0",
+            "isStatic": true,
+            "lastClassName": "hEKkqr",
+            "rules": Array [
+              "
+  &:not(.btn-loading),
+  &:not(.btn-loading) * {
+    cursor: pointer;
+  }
+
+  &.btn {
+    min-width: 200px;
+    width: 100%;
+
+    border: 0;
+
+    outline: none;
+    background-color: ",
+              "#33cccc",
+              ";
+    color: ",
+              "#fff",
+              ";
+
+    &.small {
+      height: 48px;
+      padding: 12px 24px 14px 24px;
+      border-radius: 4px;
+    }
+
+    &.medium {
+      height: 80px;
+      padding: 24px 16px 24px 24px;
+    }
+
+    &.large {
+      height: 100px;
+      padding: 24px 16px 24px 24px;
+    }
+
+    &:hover:not(.btn-default):not(.btn-loading):not([disabled]) {
+      background-color: #43e4e4;
+    }
+    &:active:not(.btn-default):not(.btn-loading):not([disabled]) {
+      background-color: #2fbcbc;
+    }
+  }
+
+  &.btn-default {
+    color: ",
+              "#9966ff",
+              ";
+    background-color: ",
+              "#fff",
+              ";
+  }
+
+  &:disabled {
+    background-color: ",
+              "#cfdae1",
+              ";
+    &,
+    & * {
+      cursor: not-allowed;
+    }
+  }
+
+  & .btn-inner__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & label {
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      margin-right: 32px;
+      flex: 1;
+      text-align: left;
+    }
+  }
+
+  .btn-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+",
+            ],
+          },
+          "displayName": "Button__Btn",
+          "render": [Function],
+          "styledComponentId": "Button__Btn-nzgghs-0",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      type="button"
+    >
+      <button
+        className="btn foo-class  sm Button__Btn-nzgghs-0 hEKkqr"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className="btn-inner__container"
+        >
+          <label>
+            My Cool Button
+          </label>
+          <pure(ArrowForwardIcon)>
+            <ArrowForwardIcon>
+              <WithStyles(SvgIcon)>
+                <SvgIcon
+                  classes={
+                    Object {
+                      "colorAction": "MuiSvgIcon-colorAction-4",
+                      "colorDisabled": "MuiSvgIcon-colorDisabled-6",
+                      "colorError": "MuiSvgIcon-colorError-5",
+                      "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+                      "colorSecondary": "MuiSvgIcon-colorSecondary-3",
+                      "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-7",
+                      "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-9",
+                      "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-8",
+                      "root": "MuiSvgIcon-root-1",
+                    }
+                  }
+                  color="inherit"
+                  component="svg"
+                  fontSize="default"
+                  viewBox="0 0 24 24"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root-1"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    />
+                  </svg>
+                </SvgIcon>
+              </WithStyles(SvgIcon)>
+            </ArrowForwardIcon>
+          </pure(ArrowForwardIcon)>
+        </div>
+      </button>
+    </StyledComponent>
+  </Button__Btn>
+</Button>
+`;

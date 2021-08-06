@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>CBCA584B-2182-4CDC-82DB-8CA80CF18121</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mob/ic/2º/xls-upload" transform="translate(-4.000000, -3.000000)">
+            <g>
+                <rect id="Rectangle-4" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                <path d="M24.8947371,4 L11.8210546,4 C11.2327833,4.00201594 10.6870865,4.30870468 10.3772653,4.81142857 L5.82989743,9.38285714 C5.31419299,9.69296103 4.99891531,10.2530434 5.0000028,10.8571429 L5.0000028,26.2857143 C5.0000028,27.2324881 5.76347503,28 6.70526574,28 L24.8947371,28 C25.8365278,28 26.6,27.2324881 26.6,26.2857143 L26.6,5.71428571 C26.6,4.76751186 25.8365278,4 24.8947371,4 Z" id="Shape" stroke="#FF9966" stroke-width="1.7" opacity="0.600000024" transform="translate(15.800000, 16.000000) scale(-1, 1) translate(-15.800000, -16.000000) "></path>
+                <text id="xls" font-family="Rubik-Medium, Rubik" font-size="10" font-weight="400" letter-spacing="-0.200000003" fill="#FF9966">
+                    <tspan x="9" y="22">xls</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

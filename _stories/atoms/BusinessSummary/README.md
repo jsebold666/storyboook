@@ -1,0 +1,1 @@
+The `<BusinessSummary>` component.

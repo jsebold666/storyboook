@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect <Clipboard> to render 1`] = `
+<Clipboard
+  onChange={[Function]}
+  value="This is text"
+>
+  <div
+    onChange={[Function]}
+    onClick={[Function]}
+    value="This is text"
+  />
+</Clipboard>
+`;
+
+exports[`Expect <Clipboard> to render properly with empty 1`] = `
+<Clipboard
+  onChange={[Function]}
+  value=""
+>
+  <div
+    onChange={[Function]}
+    onClick={[Function]}
+    value=""
+  />
+</Clipboard>
+`;
